@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91856C8FEFF0FAB78352C176 /* Pods_MediaMonks_Aditya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD5C64067D086CF263BBDA2 /* Pods_MediaMonks_Aditya.framework */; };
 		C21C817E263D589700B14706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C817D263D589700B14706 /* AppDelegate.swift */; };
 		C21C8180263D589700B14706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C817F263D589700B14706 /* SceneDelegate.swift */; };
-		C21C8182263D589700B14706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C8181263D589700B14706 /* ViewController.swift */; };
+		C21C8182263D589700B14706 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C8181263D589700B14706 /* AlbumViewController.swift */; };
 		C21C8185263D589700B14706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C8183263D589700B14706 /* Main.storyboard */; };
 		C21C8187263D589800B14706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21C8186263D589800B14706 /* Assets.xcassets */; };
 		C21C818A263D589800B14706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C8188263D589800B14706 /* LaunchScreen.storyboard */; };
+		C21C8196263D594F00B14706 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C8195263D594F00B14706 /* AlbumViewModel.swift */; };
+		C21C819C263D5A1E00B14706 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21C819B263D5A1E00B14706 /* AlbumCell.xib */; };
+		C21C81A0263D5A5200B14706 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C819F263D5A5200B14706 /* AlbumModel.swift */; };
+		C21C81A4263D5EE700B14706 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C81A3263D5EE700B14706 /* APIManager.swift */; };
+		C21C81B1263D633800B14706 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C81B0263D633800B14706 /* Constant.swift */; };
+		C21C81B6263D6D4D00B14706 /* Reachablity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C81B5263D6D4D00B14706 /* Reachablity.swift */; };
+		C23B63532641379600460993 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B63522641379600460993 /* ActivityIndicator.swift */; };
+		C23B635626413DD700460993 /* ViewContoller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B635526413DD700460993 /* ViewContoller+Extension.swift */; };
+		C23B63592641452C00460993 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B63582641452C00460993 /* PhotoDetailViewController.swift */; };
+		C29A55D4263E83EE000DB314 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A55D3263E83EE000DB314 /* AlbumCell.swift */; };
+		C29A55D7263E883C000DB314 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A55D6263E883C000DB314 /* PhotoModel.swift */; };
+		C29A55DA263E8953000DB314 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A55D9263E8953000DB314 /* PhotoViewController.swift */; };
+		C29A55DD263E89B6000DB314 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A55DC263E89B6000DB314 /* PhotoViewModel.swift */; };
+		C29A55E7263EC305000DB314 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A55E6263EC305000DB314 /* PhotosTableViewCell.swift */; };
+		C29A55EA263EC311000DB314 /* PhotosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29A55E9263EC311000DB314 /* PhotosTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29FA82D474C99119AC12DA62 /* Pods-MediaMonks_Aditya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaMonks_Aditya.debug.xcconfig"; path = "Target Support Files/Pods-MediaMonks_Aditya/Pods-MediaMonks_Aditya.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C817A263D589700B14706 /* MediaMonks_Aditya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaMonks_Aditya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21C817D263D589700B14706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C21C817F263D589700B14706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C21C8181263D589700B14706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C21C8181263D589700B14706 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		C21C8184263D589700B14706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C21C8186263D589800B14706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21C8189263D589800B14706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21C818B263D589800B14706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21C8195263D594F00B14706 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		C21C819B263D5A1E00B14706 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		C21C819F263D5A5200B14706 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		C21C81A3263D5EE700B14706 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C21C81B0263D633800B14706 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C21C81B5263D6D4D00B14706 /* Reachablity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachablity.swift; sourceTree = "<group>"; };
+		C23B63522641379600460993 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		C23B635526413DD700460993 /* ViewContoller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewContoller+Extension.swift"; sourceTree = "<group>"; };
+		C23B63582641452C00460993 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		C29A55D3263E83EE000DB314 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		C29A55D6263E883C000DB314 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		C29A55D9263E8953000DB314 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		C29A55DC263E89B6000DB314 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		C29A55E6263EC305000DB314 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		C29A55E9263EC311000DB314 /* PhotosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosTableViewCell.xib; sourceTree = "<group>"; };
+		CAD5C64067D086CF263BBDA2 /* Pods_MediaMonks_Aditya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediaMonks_Aditya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BAA13032E26B694155A08 /* Pods-MediaMonks_Aditya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaMonks_Aditya.release.xcconfig"; path = "Target Support Files/Pods-MediaMonks_Aditya/Pods-MediaMonks_Aditya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91856C8FEFF0FAB78352C176 /* Pods_MediaMonks_Aditya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451420DA621F9D04F06E42C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD5C64067D086CF263BBDA2 /* Pods_MediaMonks_Aditya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC87FC3EB24DBE6C30AA8DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FA82D474C99119AC12DA62 /* Pods-MediaMonks_Aditya.debug.xcconfig */,
+				DC5BAA13032E26B694155A08 /* Pods-MediaMonks_Aditya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C21C8171263D589700B14706 = {
 			isa = PBXGroup;
 			children = (
 				C21C817C263D589700B14706 /* MediaMonks_Aditya */,
 				C21C817B263D589700B14706 /* Products */,
+				ABC87FC3EB24DBE6C30AA8DB /* Pods */,
+				451420DA621F9D04F06E42C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,86 @@
 		C21C817C263D589700B14706 /* MediaMonks_Aditya */ = {
 			isa = PBXGroup;
 			children = (
+				C21C81B8263D6D7100B14706 /* Network Manager */,
+				C21C81AF263D632D00B14706 /* Constant */,
+				C21C819A263D5A0600B14706 /* ViewModel */,
+				C21C81BB263D703A00B14706 /* ViewController */,
+				C21C819E263D5A3C00B14706 /* Model */,
+				C21C8199263D59F500B14706 /* TableViewCells */,
+				C2451ACF263ED3C0002EF770 /* Utility */,
 				C21C817D263D589700B14706 /* AppDelegate.swift */,
 				C21C817F263D589700B14706 /* SceneDelegate.swift */,
-				C21C8181263D589700B14706 /* ViewController.swift */,
 				C21C8183263D589700B14706 /* Main.storyboard */,
 				C21C8186263D589800B14706 /* Assets.xcassets */,
 				C21C8188263D589800B14706 /* LaunchScreen.storyboard */,
 				C21C818B263D589800B14706 /* Info.plist */,
 			);
 			path = MediaMonks_Aditya;
+			sourceTree = "<group>";
+		};
+		C21C8199263D59F500B14706 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C21C819B263D5A1E00B14706 /* AlbumCell.xib */,
+				C29A55D3263E83EE000DB314 /* AlbumCell.swift */,
+				C29A55E9263EC311000DB314 /* PhotosTableViewCell.xib */,
+				C29A55E6263EC305000DB314 /* PhotosTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C21C819A263D5A0600B14706 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C21C8195263D594F00B14706 /* AlbumViewModel.swift */,
+				C29A55DC263E89B6000DB314 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C21C819E263D5A3C00B14706 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C21C819F263D5A5200B14706 /* AlbumModel.swift */,
+				C29A55D6263E883C000DB314 /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C21C81AF263D632D00B14706 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C21C81B0263D633800B14706 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		C21C81B8263D6D7100B14706 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C21C81A3263D5EE700B14706 /* APIManager.swift */,
+				C21C81B5263D6D4D00B14706 /* Reachablity.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		C21C81BB263D703A00B14706 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C21C8181263D589700B14706 /* AlbumViewController.swift */,
+				C29A55D9263E8953000DB314 /* PhotoViewController.swift */,
+				C23B63582641452C00460993 /* PhotoDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2451ACF263ED3C0002EF770 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C23B63522641379600460993 /* ActivityIndicator.swift */,
+				C23B635526413DD700460993 /* ViewContoller+Extension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21C818E263D589800B14706 /* Build configuration list for PBXNativeTarget "MediaMonks_Aditya" */;
 			buildPhases = (
+				7EF4D9BF30BCF72B0819C784 /* [CP] Check Pods Manifest.lock */,
 				C21C8176263D589700B14706 /* Sources */,
 				C21C8177263D589700B14706 /* Frameworks */,
 				C21C8178263D589700B14706 /* Resources */,
+				66850B6CC031A214304DC989 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +254,76 @@
 				C21C818A263D589800B14706 /* LaunchScreen.storyboard in Resources */,
 				C21C8187263D589800B14706 /* Assets.xcassets in Resources */,
 				C21C8185263D589700B14706 /* Main.storyboard in Resources */,
+				C21C819C263D5A1E00B14706 /* AlbumCell.xib in Resources */,
+				C29A55EA263EC311000DB314 /* PhotosTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66850B6CC031A214304DC989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediaMonks_Aditya/Pods-MediaMonks_Aditya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediaMonks_Aditya/Pods-MediaMonks_Aditya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediaMonks_Aditya/Pods-MediaMonks_Aditya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF4D9BF30BCF72B0819C784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediaMonks_Aditya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C21C8176263D589700B14706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21C8182263D589700B14706 /* ViewController.swift in Sources */,
+				C21C81B1263D633800B14706 /* Constant.swift in Sources */,
+				C29A55DD263E89B6000DB314 /* PhotoViewModel.swift in Sources */,
+				C23B635626413DD700460993 /* ViewContoller+Extension.swift in Sources */,
+				C21C8196263D594F00B14706 /* AlbumViewModel.swift in Sources */,
+				C21C81A0263D5A5200B14706 /* AlbumModel.swift in Sources */,
+				C23B63532641379600460993 /* ActivityIndicator.swift in Sources */,
+				C23B63592641452C00460993 /* PhotoDetailViewController.swift in Sources */,
+				C21C81A4263D5EE700B14706 /* APIManager.swift in Sources */,
+				C21C81B6263D6D4D00B14706 /* Reachablity.swift in Sources */,
+				C21C8182263D589700B14706 /* AlbumViewController.swift in Sources */,
 				C21C817E263D589700B14706 /* AppDelegate.swift in Sources */,
 				C21C8180263D589700B14706 /* SceneDelegate.swift in Sources */,
+				C29A55E7263EC305000DB314 /* PhotosTableViewCell.swift in Sources */,
+				C29A55D7263E883C000DB314 /* PhotoModel.swift in Sources */,
+				C29A55D4263E83EE000DB314 /* AlbumCell.swift in Sources */,
+				C29A55DA263E8953000DB314 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +467,13 @@
 		};
 		C21C818F263D589800B14706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FA82D474C99119AC12DA62 /* Pods-MediaMonks_Aditya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MediaMonks_Aditya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +481,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.app.MediaMonks-Aditya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C21C8190263D589800B14706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5BAA13032E26B694155A08 /* Pods-MediaMonks_Aditya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MediaMonks_Aditya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.app.MediaMonks-Aditya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_MediaMonks_Aditya {
+  umbrella header "Pods-MediaMonks_Aditya-umbrella.h"
+
+  export *
+  module * { export * }
+}

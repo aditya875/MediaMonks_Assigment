@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MediaMonks_Aditya
 //
-//  Created by aditya.raj.gupta on 01/05/21.
+//  Created by aditya.raj.gupta on 02/05/21.
 //
 
 import UIKit
@@ -10,7 +10,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
